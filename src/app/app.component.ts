@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'querySelector';
+  text = '';
+  value = '';
+
+  changeText(): void {
+    this.text = this.value;
+  }
 }

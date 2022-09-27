@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+}
+
+.send-button {
+    display: flex;
+}
+
+.red {
+    background-color: red;
+}
